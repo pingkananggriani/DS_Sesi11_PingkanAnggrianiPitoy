@@ -5,4 +5,4 @@ Feature: Swag Labs - Login - Positive
   Scenario: As a standard_user, I want to log in successfully
     Given Pingkan is on the login page
     When Pingkan login with "standard_user" credential
-    And Pingkan should see home page
+    Then Pingkan should see home page

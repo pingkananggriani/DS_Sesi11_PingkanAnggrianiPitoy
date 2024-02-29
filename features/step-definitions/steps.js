@@ -41,4 +41,3 @@ Then(/^Pingkan should see home page, add cart, and cant remove$/, async() => {
 Then(/^Pingkan should see failure home page$/, async() => {
     await homePage.validatehomePageVisual()
 })
-
